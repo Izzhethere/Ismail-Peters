@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- comments allow you to remember your code -->
+    <!-- how to comment out your code is command / -->
+    <meta charset="UTF-8"> 
+    <title>Izzy</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin= "anonymous"></script> 
+</head>
+<body>
+    <!-- the div tag defines a division or a section in an HTML document -->
+    <div id="header">
+        <div class="container">
+            <!-- The <nav> tag defines a set of navigation links. -->
+            <!-- The <nav> tag defines a set of navigation links. -->
+            <nav>
+                <img src="images/Izzylogoo-removebg-preview.png" class="logo">
+                <ul>
+                    <!-- Add an ID to the menu icon -->
+                    <i id="menu-icon" class="fas fa-bars"></i>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-text">
+                <h1>Hi, I'm <span>Izzy</span><br>from Hidden Genius</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- Your HTML content goes here -->
+<!-- -------------about--------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/Untitled%20Project-5.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>My name is Izzy, and I am a motivated and ambitious individual who 
+                        is eager to explore the world of business. At 14 years old, born on 
+                        December 9th, 2008, I am driven by a strong desire to learn, grow, 
+                        and make a positive impact in the business landscape. With a combination 
+                        of youthful enthusiasm and a thirst for knowledge, I am excited to 
+                        embark on this entrepreneurial journey, connecting with industry</p>
+                    <div class="tab-titles">
+                        <p class="tab-links" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Games')">Games</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>        
+                            <li><span>UI/UX</span><br>Desinging Web/App interfaces</li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>App Development</span><br>Building Android/iOS</li>
+                        </ul> 
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>2023 - Current</span><br>Technology Creation</li>
+                            <li><span>2023 - Current</span><br>Entrepreneurship</li>
+                            <li><span>2023 - Current</span><br>Leadership Skills</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Games">
+                        <ul>
+                            <li><span>Pc 2021 - Current</span><br>Scary/Horror, Valorant and Roblox</li>
+                            <li><span>Ps4 2016 - Current</span><br>Multiplayer Games</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-----------------------services---------------------->
+   <div id="services">
+    <div class="container">
+        <h1 class="sub-title">My service</h1>
+        <div class="service-list">
+            <div>
+                <i class="fas fa-crop-alt"></i>
+                <h2>UI/UX</h2>
+                <p>This is my first time doing a Web Design</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fas fa-code"></i> 
+                <h2>Web designing</h2>
+                <p>I'm starting to get into web desings</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fab fa-app-store"></i>
+                <h2>App Designing</h2>
+                <p>I haven't started App designing but I'm looking forward to doing it later</p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!--------------------portfolio----------------->
+<div id="portfolio">
+  <div class="container">
+    <h1 class="sub-title">My Work</h1>
+    <div class="work-list">
+    <div class="work">
+     <img src="images/Untitled%20Projectgyhbjkj.jpg"//.>
+        <div class="layer">
+        <h3>Instagram</h3>
+        <p>The app connects you to the talented people around the world. 
+            Download it from app store.</p>
+            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+        </div>
+    </div>
+       <div class="work">
+        <img src="images/Untitled%20Projectttt.jpg">
+            <div class="layer">
+        <h3>Tik Tok</h3>
+        <p>The app connects you to the talented people around the world. 
+            Download it from app store.</p>
+            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+        </div>
+        </div>
+        <div class="work">
+             <img src="images/Untitled%20Projecttwitch.jpg">
+             <div class="layer">
+        <h3>Youtube</h3>
+        <p>The app connects you to the talented people around the world. 
+            Download it from app store.</p>
+            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+        </div>
+            </div>
+        </div>
+    </div>
+    <a href="#" class="btn">See more</a>
+</div>
+
+<!------------------contact------------------->
+<div id="contract">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                 <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i>LilLuqgaming@gmail.com</p>      
+                <p><i class="fas fa-phone-square-alt"></i>510-882-1231</p>
+                <div class="social-icons">
+                    <a href="https://discord.gg/8vhjMd4h"><i class="fab fa-discord"></i></a>
+                    <a href="https://instagram.com/izzhethere/"><i class="fab fa-instagram"></i></a>
+                    <a href="https://tiktok.com/@izzhethere"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                <a href="" class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+         </div>
+     </div>
+    <div class="copyright">
+        <p>Copyright © Izzy. Made with <i class="fas fa-heart"></i> by Hidden Genius</p>
+</div>
+    </div>
+    </body>
+</html>
+<!----------------JavaScript--------------->
+<script>
+            function opentab(tabId){
+        const tabContents = document.querySelectorAll('.tab-contents');
+        for(const tab of tabContents){
+            tab.classList.remove('active-tab');
+        }
+                
+         const selectedTab = document.getElementById(tabId);
+       if (selectedTab) {
+           selectedTab.classList.add('active-tab');
+       }    
+    }
+
+</script>
